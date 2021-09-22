@@ -1,0 +1,23 @@
+table{
+    border: 1px #000 dotted;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+}
+th,td{
+    border: 1px #000 dotted;
+    padding: 20px;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: none;
+}
+a:active{
+    color: orangered;
+    text-decoration: none;
+}
+a{
+    color: royalblue;
+}

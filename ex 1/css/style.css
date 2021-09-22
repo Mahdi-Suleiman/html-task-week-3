@@ -1,0 +1,10 @@
+#paragraph-1{
+    color: orange;
+}
+
+#image-container{
+    background-image: url("../assets/image1.png");
+    background-repeat: repeat;
+    background-position: center;
+    color:#000;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Level 2 - Image 11</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <div id="form-container">
+        <form action="#" autocomplete="on" method="POST">
+            <fieldset>
+                <legend>Personal details</legend>
+                <table>
+                    <tr>
+                        <td> <label for="given-name">First name</label></td>
+                        <td><input type="text" name="given-name" id="given-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="family-name">Last name</label></td>
+                        <td><input type="text" name="family-name" id="family-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email address</label></td>
+                        <td><input type="email" name="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender: </label></td>
+                        <td>
+                            <div>
+                                <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+
+                                <input type="radio" name="gender" id="female" value="female"><label
+                                    for="female">Female</label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>City</legend>
+                <div>
+                    <label for="city">City: </label>
+                    <select name="city" id="city">
+                        <optgroup label="Northern Cities">
+                            <option value="irbid">Irbid</option>
+                        </optgroup>
+                        <optgroup label="Central Cities">
+                            <option value="amman" selected>Amman</option>
+                            <option value="zarqa">zarqa</option>
+                        </optgroup>
+                        <optgroup label="Sothern Cities">
+                            <option value="aqaba">Aqaba</option>
+                        </optgroup>
+                </div>
+                </select>
+            </fieldset>
+            <div>
+                <input type="submit" value="Subscribe">
+            </div>
+        </form>
+    </div>
+    <!--form-container-->
+</body>
+
+</html>

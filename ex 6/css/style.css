@@ -1,0 +1,28 @@
+div
+{
+    margin: 10px;
+}
+table{
+    border: dotted black 1px;
+    border-collapse: collapse;
+    width: 35%;
+    table-layout: fixed;
+}
+th, td{
+    border: dotted black 1px;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+}
+a{
+    font-weight: bold;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: orange;
+}

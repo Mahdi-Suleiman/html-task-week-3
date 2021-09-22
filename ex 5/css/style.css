@@ -1,0 +1,12 @@
+.my-form{
+    border: 1px black dotted;
+    padding: 10px;
+    max-width: 50%;
+}
+div{
+    margin: 20px;
+}
+.my-form input[type="submit"]{
+    display: block;
+    margin-top: 20px;
+}
